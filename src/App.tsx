@@ -215,12 +215,12 @@ function App() {
 
   const mockAnalytics: DomainAnalytics = {
     'panelplayhouse.com': {
-      totalVisitors: 2100,
+      totalVisitors: 3000,
       clicksByCountry: {
         'Australia': 1200,
-        'Chile': 400,
-        'United States': 150,
-        'Others': 350
+        'Chile': 700,
+        'United States': 699,
+        'Others': 401
       },
       countryFlags: {
         'Australia': 'AU',
@@ -255,20 +255,25 @@ function App() {
           countryClicks: { 'Australia': 1000, 'Chile': 380, 'United States': 140, 'Others': 380 }
         },
         { 
-          date: '2025-07-20',
-          totalVisitors: 2000,
-          countryClicks: { 'Australia': 1100, 'Chile': 390, 'United States': 145, 'Others': 365 }
+          date: '2025-08-20',
+          totalVisitors: 2100,
+          countryClicks: { 'Australia': 1100, 'Chile': 390, 'United States': 245, 'Others': 365 }
         },
         { 
-          date: '2025-07-26',
-          totalVisitors: 2100,
-          countryClicks: { 'Australia': 1200, 'Chile': 400, 'United States': 150, 'Others': 350 }
+          date: '2025-09-26',
+          totalVisitors: 2300,
+          countryClicks: { 'Australia': 1200, 'Chile': 400, 'United States': 350, 'Others': 350 }
+        },
+         { 
+          date: '2025-10-28',
+          totalVisitors: 3000,
+          countryClicks: { 'Australia': 1200, 'Chile': 700, 'United States': 699, 'Others': 401 }
         }
       ],
       budget: {
         total: 600,
-        spent: 550,
-        remaining: 50,
+        spent: 600,
+        remaining: 0,
         dailySpend: 19.64
       }
     },
